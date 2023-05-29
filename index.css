@@ -1,0 +1,118 @@
+/* Styles pour la page de santé */
+
+/* Styles généraux */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 10px;
+  padding: 10px;
+  background-color: rgb(253, 252, 247);
+}
+
+h1, h2, h3 {
+  color: #5a320d;
+  font-size: 24px;
+}
+
+p {
+  color: #503434;
+  font-size: 16px;
+}
+
+/* Styles pour le conteneur principal */
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-gap: 5px;
+  padding: 5px;
+}
+
+/* Styles pour la section "Mon profil" */
+.section-profil {
+  background-color: #cfaa73;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 2px; /* Ajustement des marges intérieures */
+}
+
+/* Styles pour la section "Bilan du jour" */
+.section-bilan {
+  background-color: #cfaa73;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 2px; /* Ajustement des marges intérieures */
+}
+
+/* Styles pour la section "Ma progression" */
+.section-progression {
+  background-color: #cfaa73;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 2px; /* Ajustement des marges intérieures */
+}
+
+/* Styles pour le pied de page */
+.footer {
+  background-color: #cfaa73;
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+}
+
+
+.sport-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sport-images img {
+  width: 150px;
+  height: 150px;
+  margin: 0px;
+}
+
+/* Styles pour la jauge d'humeur */
+.mood-meter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mood-meter-label {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.mood-meter-progress {
+  width: 100%;
+  height: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.mood-meter-progress-bar {
+  height: 100%;
+  background-color: #5a320d;
+  transition: width 0.3s ease-in-out;
+}
+
+.mood-meter-progress-labels {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.mood-meter-progress-labels span {
+  flex-grow: 1;
+  text-align: center;
+}
+
